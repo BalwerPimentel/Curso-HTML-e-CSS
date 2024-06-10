@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(214, 119, 119);
+            margin: 0px;
+        }
+        header{
+            background-color: rgba(251, 255, 0, 0.452);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            box-shadow: 1px 1px 1px black;
+            background-color: lightslategray;
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: azure;
+            font-weight: bold;
+            margin-right: 30px;
+            
+        } 
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 6px;
+        }
+        article{
+            background-color: blanchedalmond;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: aquamarine;
+        }
+        footer{
+            background-color: brown;
+            color: bisque;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+<h1>Meu site</h1>
+<nav>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+    <a href="#">LINK</a>
+</nav>
+    </header>
+
+    <main>
+<section id="assuntos">
+
+</section>
+<section id="noticias"></section>
+<article>
+    <h2>Fala povo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur soluta possimus in cupiditate, ipsa voluptatem ipsum nobis temporibus quibusdam, provident officiis labore ullam vero alias quod ea repellendus deleniti fuga?</p>
+    <aside>
+        <p>artigo feito pela pessoa</p>
+    </aside>
+</article>
+    </main>
+
+    <footer>
+<p>Desenvolvido por Balwer</p>
+    </footer>
+</body>
+</html>

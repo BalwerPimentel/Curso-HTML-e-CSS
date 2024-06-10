@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="Iconshock-Dragonball-Dragonball-2.256.ico" type="image/x-icon">
+    <title>Exercícios do modulo 1 de HTML</title>
+    <style>
+        body{
+            background-color: chartreuse;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            color: blueviolet;
+
+        }
+        h2{
+            color: brown;
+            
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    
+    
+    <h1>Exercícios</h1>
+    
+    <h2> favicon; parágrafos; quebra de linhas; negrito; italico; abreviação; emojis; marcação; links</h2>
+
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito. <br> Basta colocar tudo no meio do par de <mark>tags</mark> &lt;p&gt; e &lt;/p&gt;.</p>
+    <p>Se precisar quebrar o texto em algum alugar <strong>especifico como esse</strong>,<br> <em>voce pode usar a tag </em>&lt;br&gt;.</p>
+    <p>Emojis:
+        &#x1F913;
+        <abbr title="Balwer Pimentel da Silva">BPS</abbr>
+    </p>
+    <h1>Listas</h1>
+
+    <h2>lista ordenada</h2>
+<ol type="i">
+    <li>estudar</li>
+    <li>estudar mais</li>
+    <li>estudar mais ainda</li>
+    <li>aprender</li>
+</ol>
+<ol type="a">
+    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem minima excepturi cumque saepe, repellat accusantium mollitia, dicta voluptates aliquam consequuntur voluptatum, sint aspernatur in nulla repellendus repudiandae veniam illo nam.</li>
+    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus enim impedit modi sed itaque iste dicta harum assumenda nesciunt suscipit ducimus voluptatem, a eveniet officiis, sapiente quaerat, perspiciatis provident porro!</li>
+</ol>
+
+<h2>listas  nao orde nadas</h2>
+<ul type="square">
+    <li>trabalhar</li>
+    <li>ganhar dinheiro</li>
+</ul>
+<ul type="circle"> <!-- tem tbm o disc-->
+    <li>mudar de trabalho</li>
+    <li>ganhar mais dinheiro</li>
+    <li>talvez mudar de casa</li>
+</ul>
+
+<h2>juntando listas 1.0</h2>
+<ol>
+    <li>antigas</li>
+    <ol type="a">
+        <li>clipper</li>
+        <li>fortran</li>
+        <li>delphi</li>
+    </ol>
+    <li>novas</li>
+    <ol type="I">
+        <li>php</li>
+        <li>python</li>
+        <li>javascript</li>
+        <li>kotlin</li>
+    </ol>
+</ol>
+
+<h2>lista de definições</h2>
+<dl>
+    <dt>termo</dt>
+    <dd>definição</dd>
+    <br>
+    <dt>BPS</dt>
+    <dd>Balwer Pimentel Da Silva</dd>
+</dl>
+
+
+<h1> Tabalhando com links</h1>
+
+<h2>Usando links externos</h2>
+<p>voce pode acessar o <a href="https://gustavoguanabara.github.io/" target="_blank" rel= "external">repositorio do professor</a></p>
+<p>tambem qualquer site como o <a href="https://globo.com/"target="_blank" rel= "external">site da globo</a></p><!--tag par abrir me outra janela: tatget (alvo) janela em branco  rel(referencia para o buscador da internet, semantica) externa-->
+
+<h2>Usando links internos</h2>
+<p>essa é a primeira pagina, se quer ir a segunda clic <a href="pg002.html">AQUI</a></p>
+<p>há uma terceira pagina, click no numero <a href="links/pg003.html">3</a></p>
+
+
+<h1>Links para downloads</h1>
+<li><a href="links/CVBalwer pimentel.pdf" download="CVBalwer pimentel.pdf" type="application/pdf">Baixar PDF</a></li>
+<li><a href="links/CVBalwer pimentel.zip">Baixar pasta ZIP</a></li>
+
+
+<h1>Imagens dinamicas</h1>
+<p>Tente abrir esse site em varios dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+    <source media="(max-width:1050px )" srcset="Imagens/foto-m.png" type="image/png">
+    <img src="Imagens/foto-g.png" alt="imagem flexivel">
+</picture>
+
+
+<h1>Reproduzindo audio</h1>
+<p>Vamos aprender a reproduzir audios em HTMl5.</p>
+<audio src="media/Oh Fire - Carmen María and Edu Espinal.mp3" controls autoplay></audio>
+<p><audio controls autoplay>
+    <source src="media/happy-mistake.mp3" type="audio/mpeg" >
+</audio></p>
+
+
+<h1>Roproduzinho videos</h1>
+
+<h2>video de hospedagem propria</h2>
+<p>vendo um video</p>
+<video src="media/Pexels-Ahmed9970612 (2160P).webm" width="350" poster="Imagens/foto-p.png" controls></video>
+
+<h2>incorporaçao de video externos</h2>
+<p>vendo outro video</p>
+<iframe width="350" height="315" src="https://www.youtube.com/embed/kP4QHmrBWwE?si=l3VKRKt01rAbo45V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>

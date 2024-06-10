@@ -1,0 +1,38 @@
+@charset "UFT-8";
+
+/*
+O que em HTML é id = em CSS é # (só posso tem um elemento;
+O que em HTML é class = em CSS é .(ponto) Posso tem varios elementos
+*/
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+color: rgb(4, 109, 0);
+background-color: 
+}
+#principal{
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2{
+color: rgb(205, 109, 71);
+}
+
+.M1{ 
+color: #3c805e;
+}
+.M2{
+    color: #80793c;
+}
+ 
+.M3{
+color: #803c3c;
+}
+.destaque{
+    background-color: #ffff01e5;
+}
